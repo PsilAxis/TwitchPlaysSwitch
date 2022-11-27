@@ -8,9 +8,9 @@ keyboard = Controller()
 
 server = 'irc.chat.twitch.tv'
 port = 6667
-nickname = '------------'
-token = 'oauth:----------------------'
-channel = '-------------'
+nickname = '------------' #bot nickname?(account name)
+token = 'oauth:----------------------' #your twitch oauth can be obtained here https://twitchapps.com/tmi/
+channel = '-------------' # the channel you want to listen for commands in.
  
 Listening = True
  
