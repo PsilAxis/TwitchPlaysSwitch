@@ -189,12 +189,7 @@ def loop(Listening):
                 keyboard.release('-')
                 print('Minus Was Used')
                 break
-        else:
-            print("Stopped Listening")
-            time.sleep(.25)
-            Listening= True
-            
-            #so we don't send messages too fast
+
         
 
 while run:
